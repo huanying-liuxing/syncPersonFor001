@@ -1,0 +1,16 @@
+package com.example.demo.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.demo.entity.PlatMiddlePerson;
+import com.example.demo.entity.PlatPerson;
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * 同步成功的人员表dao接口
+ * @author liuhuan
+ * @since 2021/6/18 14:57
+ * @version 1.0
+ */
+@Mapper
+public interface PlatMiddlePersonMapper extends BaseMapper<PlatMiddlePerson> {
+}
